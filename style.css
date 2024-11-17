@@ -19,3 +19,27 @@ nav{
   justify-content: center;
   margin-bottom: 0;
 }
+
+section{
+  margin: 0;
+  background-color: white;
+  max-width: none;
+  height: 150px;
+  display: flex;
+  
+  column-gap: 90px;
+ 
+}
+.image-gallery {
+  display: flex; /* Arrange images in a row */
+  justify-content: center; /* Center the images horizontally */
+  gap: 150px; /* Create equal gaps between the images */
+  margin: 30px;
+
+}
+
+.image-gallery img {
+  width: 100px; /* Adjust the image width as needed */
+  height: auto;
+
+}
